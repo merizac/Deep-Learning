@@ -1,10 +1,3 @@
-# deep-learning
 
-## TODO
-- approccio lstm
-- utilizzare 2 mappe di ingresso per ogni sentence
-  - entrambe costanti: in-domain e wikipedia
-  - una costante (in-domain) e una trainable (random)
-  - una costante (in-domain) e una trainable (in-domain)
-- max-pooling invece di somma
-- risultati ufficiali con entrambi gli embeddings
+
+In the context of online forums, although two questions may seem very different in terms of vocabulary, length and syntax, they may eventually ask the same thing. In this work,we try to detect semantically equivalent questions using a simple Convolutional Neural Network (CNN). The proposed CNN generates distributed vector representations for pairs of questions and score them using a similarity metric.
